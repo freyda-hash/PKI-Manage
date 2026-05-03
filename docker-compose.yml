@@ -1,0 +1,50 @@
+networks:
+  ejbca-net:
+    driver: bridge
+
+services:
+  ejbca-database:
+    container_name: ejbca-db
+    image: library/mariadb:latest
+    networks:
+      - ejbca-net
+    environment:
+      MYSQL_ROOT_PASSWORD: ejbca_root_pw
+      MYSQL_DATABASE: ejbca
+      MYSQL_USER: ejbca
+      MYSQL_PASSWORD: ejbca_db_pw
+    volumes:
+      - ejbca-exam-db-data:/var/lib/mysql
+    restart: unless-stopped
+
+  ejbca:
+    hostname: ejbca-node
+    container_name: ejbca-node
+    image: keyfactor/ejbca-ce:latest
+    depends_on:
+      - ejbca-database
+    networks:
+      - ejbca-net
+    environment:
+      DATABASE_JDBC_URL: "jdbc:mariadb://ejbca-database:3306/ejbca?characterEncoding=UTF-8"
+      DATABASE_USER: ejbca
+      DATABASE_PASSWORD: ejbca_db_pw
+      HTTPSERVER_HOSTNAME: localhost
+      LOG_LEVEL_APP: INFO
+      LOG_LEVEL_SERVER: INFO
+      TLS_SETUP_ENABLED: simple
+      # PKCS#11 proxy : connexion au HSM réseau
+      PKCS11_PROXY_SOCKET: "tls://softhsm:2345"
+      PKCS11_PROXY_TLS_PSK_FILE: "/opt/pkcs11-proxy/test.tls.psk"
+    ports:
+      - "443:8443"
+      - "80:8080"
+    volumes:
+      - ejbca-exam:/opt/ejbca/persistent
+      - ./pkcs11-proxy:/opt/pkcs11-proxy:ro
+      - ./config/cesecore.properties:/etc/cesecore/conf/cesecore.properties:ro
+    restart: unless-stopped
+
+volumes:
+  ejbca-exam: 
+  ejbca-exam-db-data:

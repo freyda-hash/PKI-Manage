@@ -1,0 +1,85 @@
+{
+  "manifeste": {
+    "reference": "CARGO-2026-04-21-SK741",
+    "version": "1.0",
+    "emis_par": "SkyTrust Cargo Operations",
+    "date_emission": "2026-04-21T08:30:00Z"
+  },
+  "vol": {
+    "numero": "SK741",
+    "date": "2026-04-21",
+    "depart": {
+      "aeroport": "CDG",
+      "ville": "Paris Charles de Gaulle",
+      "heure_depart": "2026-04-21T10:45:00Z"
+    },
+    "arrivee": {
+      "aeroport": "DXB",
+      "ville": "Dubai International",
+      "heure_arrivee": "2026-04-21T21:15:00Z"
+    },
+    "aeronef": "A330F",
+    "immatriculation": "F-HSKY"
+  },
+  "expediteur": {
+    "nom": "AeroPartsHub SAS",
+    "adresse": "12 rue de la Logistique, 93290 Tremblay-en-France",
+    "contact": "ops@aeropartshub.example"
+  },
+  "destinataire": {
+    "nom": "Gulf Avionics Trading LLC",
+    "adresse": "Cargo Village Zone C, Terminal 2, Dubai",
+    "contact": "receiving@gulfavionics.example"
+  },
+  "cargaison": [
+    {
+      "awb": "125-00123456",
+      "description": "Pièces détachées avionique — capteurs de pression de cabine",
+      "ncm": "8803300090",
+      "quantite": 24,
+      "unite": "boîtes",
+      "poids_brut_kg": 187.4,
+      "volume_m3": 0.82,
+      "dangerous_goods": false,
+      "temperature_requise": null
+    },
+    {
+      "awb": "125-00123457",
+      "description": "Modules de commandes de vol — FBW actuateurs",
+      "ncm": "8803300091",
+      "quantite": 6,
+      "unite": "caisses",
+      "poids_brut_kg": 312.0,
+      "volume_m3": 1.44,
+      "dangerous_goods": false,
+      "temperature_requise": null
+    },
+    {
+      "awb": "125-00123458",
+      "description": "Batteries lithium-ion de secours (UN3480 — PI965)",
+      "ncm": "8507600090",
+      "quantite": 12,
+      "unite": "unités",
+      "poids_brut_kg": 96.0,
+      "volume_m3": 0.30,
+      "dangerous_goods": true,
+      "classe_iata": "9",
+      "un_number": "UN3480",
+      "temperature_requise": null
+    }
+  ],
+  "totaux": {
+    "poids_brut_total_kg": 595.4,
+    "volume_total_m3": 2.56,
+    "nombre_pieces": 42
+  },
+  "declarations": {
+    "douane_exportation": "EX1/FR/2026/00047821",
+    "certificat_origine": "FR-CO-2026-00312",
+    "marchandises_conformes_iata": true,
+    "dgd_reference": "DGD-SK741-2026-04-21"
+  },
+  "tracker_ids": [
+    "tracker-001.cargo.skytrust.local"
+  ]
+}
