@@ -61,12 +61,12 @@ _Pour chaque exigence significative des CP Cargo (Root et Issuing), indiquez l'�
 | 2   |   DN explicite                         |   Champ Subject DN = CN=SkyTrust Cargo Root CA                   |    ![alt text](subject.png)    |
 | 3   |   Clé générée dans HSM                        |  Utilisation de CargoSoftToken comme Crypto Token                    |  ![alt text](BasiC.png)      |
 | 4   |     Publication CRL                       | Bouton Create CRL dans Certification Authorities                     | ![alt text](image-1.png)      |
-| 5   |  CRL Distribution Point                          |                    |        |
-| 6   |   AIA                         |  Champ Authority Information Access configuré           |        |
-| 7   |   Issuing CA signée par Root                         |                      |        |
-| 8   |    Clé Issuing distincte                        |                      |        |
-| 9   |   CRL Issuing                         |                      |        |
-| 10  |Publication OCSP|                      |        |
+| 5   |  CRL Distribution Point                          |   Champ CDP configuré dans le Certificate Profile                 |  openssl x509 -in cargo-issuing.pem -text -noout  grep -A 3 "CRL Distribution Points"     |
+| 6   |   AIA                         |  Champ Authority Information Access configuré  dans profile         | openssl x509 -in cargo-issuing.pem -text -noout grep -A 3 "Authority Information Access"      |
+| 7   |   Issuing CA signée par Root                         |   creation Issuing CA avec Root comme CA parente                   |  openssl x509 -in cargo-issuing.pem -noout -issuer + cargo-root.pem -subject     |
+| 8   |    Clé Issuing distincte                        | Crypto Token différent pour Issuing CA                     | ![alt text](crypto.png)       |
+| 9   |   CRL Issuing                         |      Publication CRL spécifique à l'Issuing CA                |  ![alt text](crl).png)      |
+| 10  |Publication OCSP|                      |  OSCP responder activé dans EJBCA      | openssl x509 -in cargo-issuing.pem -noout -issuer + cargo-root.pem -subject
 
 ### 1.3 Remarques
 
