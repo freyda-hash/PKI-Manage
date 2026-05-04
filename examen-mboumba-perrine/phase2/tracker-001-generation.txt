@@ -1,0 +1,5 @@
+Enrollment of tracker-001.cargo.skytrust.local via EJBCA RA Web using CSR (Provided by user). Certificate successfully issued.
+subject=CN = tracker-001.cargo.skytrust.local, OU = Cargo, O = SkyTrust Aviation, C = FR
+issuer=CN = SkyTrust Cargo Issuing CA
+notBefore=May  3 23:14:04 2026 GMT
+notAfter=Jun  2 17:57:49 2026 GMT

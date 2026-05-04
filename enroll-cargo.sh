@@ -38,11 +38,11 @@ fi
 CA_NAME="SkyTrust Cargo Issuing CA"
 
 # Répertoire de travail : ajustez si vous avez un chemin différent
-PKI_DIR="$HOME/skytrust-pki"
+PKI_DIR="/home/freyda/Documents/PKI-Manage/examen-mboumba-perrine/phase2"
 
 # Certificat + clé utilisés pour l'authentification mutuelle TLS à l'API REST
-CLIENT_CERT="$PKI_DIR/<à renseigner>.pem"
-CLIENT_KEY="$PKI_DIR/<à renseigner>.key"
+CLIENT_CERT="/home/freyda/Documents/PKI-Manage/examen-mboumba-perrine/phase2/api_client.pem"
+CLIENT_KEY="/home/freyda/Documents/PKI-Manage/examen-mboumba-perrine/phase2/api_client.key"
 
 # Mot de passe d'enrôlement (arbitraire, consommé à usage unique par EJBCA)
 PASSWORD="CargoEnroll2026!"

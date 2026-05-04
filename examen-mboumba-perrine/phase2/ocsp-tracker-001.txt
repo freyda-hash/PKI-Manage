@@ -1,0 +1,183 @@
+OCSP Request Data:
+    Version: 1 (0x0)
+    Requestor List:
+        Certificate ID:
+          Hash Algorithm: sha1
+          Issuer Name Hash: C76821E441081CFEA34A0454F33BA4C85F3EB186
+          Issuer Key Hash: 6C5404980C6470C792006B29D26897EF71525934
+          Serial Number: 31F7CA5510A6CAA529547B679F2C7DF67570C074
+    Request Extensions:
+        OCSP Nonce: 
+            0410AD0F2C259246D304CFA239BD5310E833
+OCSP Response Data:
+    OCSP Response Status: successful (0x0)
+    Response Type: Basic OCSP Response
+    Version: 1 (0x0)
+    Responder Id: 6C5404980C6470C792006B29D26897EF71525934
+    Produced At: May  4 00:16:49 2026 GMT
+    Responses:
+    Certificate ID:
+      Hash Algorithm: sha1
+      Issuer Name Hash: C76821E441081CFEA34A0454F33BA4C85F3EB186
+      Issuer Key Hash: 6C5404980C6470C792006B29D26897EF71525934
+      Serial Number: 31F7CA5510A6CAA529547B679F2C7DF67570C074
+    Cert Status: good
+    This Update: May  4 00:16:48 2026 GMT
+
+    Response Extensions:
+        OCSP Nonce: 
+            0410AD0F2C259246D304CFA239BD5310E833
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        3a:86:a3:6e:0c:5e:22:6e:7b:f0:68:03:e6:09:e1:a2:b0:0f:
+        3d:1c:da:78:1e:f3:09:b8:72:80:3f:6a:0f:d7:f5:83:79:ad:
+        aa:f0:01:63:89:6d:8e:c8:c5:dc:7a:5e:fc:c9:d4:5b:21:9b:
+        38:38:e5:61:43:93:e2:ab:c8:4d:4d:fd:5f:27:d0:7d:bc:aa:
+        26:7e:88:49:92:37:07:70:2a:ef:f4:68:75:5f:9b:d6:4f:a8:
+        6d:64:d5:71:94:4a:a1:3b:a0:44:cd:7a:4f:5f:f4:cd:3d:8e:
+        38:a2:12:f1:53:3e:30:0e:c4:ff:70:5c:1a:4d:48:25:4f:4e:
+        16:31:91:1d:de:3c:0a:98:3d:45:6d:9e:9b:e0:6e:04:8e:d4:
+        e3:1a:4c:39:b7:25:18:bc:be:7d:ed:02:93:d8:82:14:c6:29:
+        77:96:23:d7:31:6e:dc:c5:c0:d1:0e:9b:39:e4:74:2e:8f:90:
+        88:00:74:8f:a6:e4:fe:e8:b0:3a:a3:10:d5:73:30:ca:0a:f4:
+        15:ea:d0:c8:f2:22:bb:27:66:15:da:ec:04:95:a1:75:73:3d:
+        c4:eb:04:31:c2:16:70:92:8e:29:29:06:a1:f0:fe:98:a1:4b:
+        2a:4a:7b:95:a8:b0:ef:f5:cd:06:61:24:90:84:84:f6:15:45:
+        7b:a2:b4:42:87:b4:80:cc:1b:5f:83:f2:bc:ac:3e:2b:ce:9b:
+        af:3f:2d:f0:41:01:ac:dd:3b:b2:19:ae:af:54:8c:08:36:cc:
+        cc:8c:05:34:3c:35:79:ea:b3:65:6c:d9:ff:bb:99:57:ad:cd:
+        df:ec:cb:7c:02:02:fb:f9:bb:f8:97:ce:3c:c0:72:10:41:3d:
+        13:36:88:82:6f:49:70:a4:43:5d:19:a0:6d:8f:37:be:ba:93:
+        ad:2c:d2:2e:47:77:a5:87:d2:2c:f0:b7:13:b8:2c:78:68:6b:
+        02:23:85:39:be:ab:4b:1d:aa:3e:30:03:f8:5c:44:99:ea:ae:
+        9b:37:26:95:26:49:10:9b:df:50:36:38:32:70:b4:5e:a6:7e:
+        f7:7e:bf:10:14:45:43:94:eb:46:22:7e:83:94:8b:9c:24:18:
+        92:b7:f6:8b:93:7a:cf:75:b7:4e:9c:c4:c5:e0:99:fd:b9:b1:
+        0d:75:46:43:4f:42:eb:de:10:91:ee:36:ed:d6:ac:83:a5:74:
+        e7:58:33:ef:d3:a9:00:33:14:47:8c:00:69:25:b0:94:04:41:
+        21:23:fa:1a:2a:75:22:b7:b9:f4:7f:be:5f:e7:cd:c6:20:67:
+        05:68:48:c7:95:5b:8c:73:09:3b:6d:79:7e:7e:19:69:72:13:
+        d0:cd:ed:d9:91:fc:08:eb
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            3c:e8:ca:d8:d7:df:06:b8:48:ed:b5:78:46:a9:a7:64:a5:d1:1c:6f
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=SkyTrust Cargo Root CA
+        Validity
+            Not Before: May  3 17:59:20 2026 GMT
+            Not After : Jun  2 17:57:49 2026 GMT
+        Subject: CN=SkyTrust Cargo Issuing CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:d0:51:68:9e:1e:65:04:40:3d:0c:c3:5e:1d:e0:
+                    d0:58:e3:0e:30:84:de:98:0e:09:ef:0f:42:b2:9d:
+                    0f:2b:0f:83:41:5c:03:bd:83:88:4b:3e:e7:0a:62:
+                    98:96:0d:e2:e2:f9:15:16:aa:fe:d2:80:f3:8b:b0:
+                    97:aa:f8:02:2c:5b:9f:96:9b:ac:19:a6:58:cf:46:
+                    2d:09:ea:29:65:ca:7a:3b:bc:d6:04:7b:e8:74:16:
+                    5c:0e:3e:e0:69:ba:57:14:0b:df:11:c5:08:22:74:
+                    63:82:d6:60:9f:f1:6b:1a:a8:cf:83:c8:b8:80:75:
+                    cd:46:d6:68:99:29:09:1e:bb:13:65:d4:6d:59:50:
+                    4a:81:ab:b0:60:42:4d:b5:52:ad:6f:36:a6:de:08:
+                    d6:f3:4e:4a:3c:1c:88:6b:44:36:c9:ae:be:27:5b:
+                    af:44:e5:8c:c4:4b:c3:f7:cf:63:db:95:ac:45:24:
+                    1a:99:a9:72:b7:6a:fd:a1:27:de:e4:12:cc:c1:2c:
+                    1a:de:c9:7f:dc:0e:03:59:87:89:72:ba:e9:7e:80:
+                    33:82:c7:d5:cd:42:23:c1:a9:44:f1:c2:37:15:e8:
+                    c1:ae:b9:59:9d:3b:36:83:da:04:47:7a:09:a9:6b:
+                    f2:89:c4:87:ab:df:66:ee:0e:5b:cc:1d:55:f3:39:
+                    94:a9:70:97:94:91:98:a5:4b:be:ca:d0:6c:13:25:
+                    19:81:f1:03:5d:42:4e:97:0e:a5:14:07:80:ec:ad:
+                    50:79:38:f2:ff:fa:a3:48:c3:92:4b:48:91:5c:6e:
+                    40:dd:14:f2:31:e0:23:d9:be:a3:7a:67:0e:0b:61:
+                    2b:27:a1:fd:0c:7f:56:c7:13:14:30:ab:fc:dc:04:
+                    d0:47:db:91:76:c9:e5:a2:73:ba:c5:25:b4:61:f4:
+                    c5:d0:7e:35:1b:53:85:3d:15:cd:da:44:90:4c:cc:
+                    a6:ea:57:b6:db:0e:83:1c:fc:9e:b3:41:eb:22:88:
+                    bb:21:a2:ac:7a:27:46:35:60:cb:da:8a:0f:49:0d:
+                    f3:6e:1a:e9:84:e7:0f:2f:8c:c2:77:85:fe:2f:aa:
+                    3c:6b:76:f7:0e:a1:01:30:29:31:2f:ac:c9:ca:ba:
+                    a3:32:08:e7:0a:6f:2e:28:e8:03:76:f7:4b:c3:3e:
+                    62:04:af:17:b2:e2:0c:cf:42:4f:6c:ed:a4:6f:05:
+                    b9:1e:fa:e5:9c:87:01:8a:bb:f0:c5:3b:93:d7:10:
+                    af:ad:5e:d4:a1:23:b3:81:df:02:ee:e1:cb:37:d6:
+                    ad:1b:dd:b2:4f:23:b0:cd:6b:a1:76:55:23:21:09:
+                    ec:85:9d:ab:a9:d0:ba:65:05:7e:3b:fe:7d:27:3f:
+                    bd:b3:2f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Authority Key Identifier: 
+                6C:54:04:98:0C:64:70:C7:92:00:6B:29:D2:68:97:EF:71:52:59:34
+            X509v3 Subject Key Identifier: 
+                6C:54:04:98:0C:64:70:C7:92:00:6B:29:D2:68:97:EF:71:52:59:34
+            X509v3 Key Usage: critical
+                Digital Signature, Certificate Sign, CRL Sign
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        50:28:da:de:70:bf:2b:a4:4e:d1:96:60:e8:1b:c2:73:cb:44:
+        9e:5e:96:f0:7b:b2:05:81:51:fd:47:51:72:e4:b0:7c:bb:3f:
+        14:e7:53:74:b2:e9:40:49:02:0a:7f:5b:fb:f5:4f:cd:74:3a:
+        8d:d2:3c:bb:24:04:4c:84:d5:73:4c:de:57:5b:21:3e:d2:6d:
+        24:06:d2:2a:52:4a:fe:10:ac:16:c3:c1:ca:06:f3:d5:5f:cc:
+        ba:18:d4:b8:39:fb:ae:28:0f:5b:86:f3:b6:64:24:3b:c0:56:
+        b1:b8:75:19:c9:70:a0:99:90:b1:6f:dd:cc:bc:b2:0d:10:a5:
+        66:60:10:5f:e4:5e:f8:41:70:84:e3:82:30:dc:74:c0:80:a4:
+        c9:6c:36:af:db:8d:10:40:68:fb:12:69:bd:19:c5:5a:96:85:
+        ec:08:4d:b5:69:12:bb:6d:45:d4:8a:63:45:48:e4:27:bd:32:
+        29:62:50:81:b1:b6:18:af:69:1c:f5:ad:66:e5:2a:00:7e:69:
+        7c:89:a9:04:04:bf:a9:1f:63:a7:b8:34:6a:d1:1f:c2:1e:73:
+        8a:37:1c:fb:d7:15:d8:cf:1e:d1:8f:51:ee:7c:5b:c1:ee:60:
+        fc:34:79:c6:ee:70:0c:34:89:cc:cd:cf:c5:60:e4:48:ac:7e:
+        39:2e:ac:a9:1d:5d:57:8b:86:82:cf:98:f2:17:ff:66:44:9f:
+        d3:3e:1e:60:55:2c:8d:32:24:53:1d:56:1c:d7:5c:cd:5b:81:
+        d4:94:b6:87:e8:77:d4:69:d4:63:fc:a5:4d:03:ee:c3:99:08:
+        bd:19:63:a0:48:e4:b4:b0:82:7a:99:1d:e7:f9:57:cb:af:8d:
+        23:fd:dd:93:4c:78:4d:bb:f0:ad:86:62:16:16:b1:a1:16:f7:
+        09:99:1e:b2:ad:23:6d:9c:57:97:e4:5e:9e:89:61:e8:5e:24:
+        a2:a4:66:1a:11:9c:3a:bf:17:41:24:19:8c:13:2e:10:80:3c:
+        2f:36:dd:c1:41:23:d7:68:76:be:df:ba:25:b7:c5:40:dc:4f:
+        99:90:4a:72:0c:5c:d0:70:57:de:44:84:d0:22:dc:f6:0f:75:
+        ee:b4:9b:e4:4d:ec:c8:a3:bb:6a:24:8f:49:f4:88:11:2e:1e:
+        fe:aa:69:69:79:37:29:ca:e7:00:d4:ca:84:dd:34:3e:fd:64:
+        ca:26:76:92:8d:6e:4b:f6:b6:5e:ec:41:aa:38:89:e4:ad:95:
+        01:45:1f:e6:7a:1c:aa:80:74:19:e9:39:41:44:05:e0:d0:2e:
+        03:bb:58:64:4e:76:e1:61:de:ed:f1:62:65:d3:11:9c:82:84:
+        55:af:ff:b1:ed:70:fb:4c
+-----BEGIN CERTIFICATE-----
+MIIFNjCCAx6gAwIBAgIUPOjK2NffBrhI7bV4RqmnZKXRHG8wDQYJKoZIhvcNAQEL
+BQAwITEfMB0GA1UEAwwWU2t5VHJ1c3QgQ2FyZ28gUm9vdCBDQTAeFw0yNjA1MDMx
+NzU5MjBaFw0yNjA2MDIxNzU3NDlaMCQxIjAgBgNVBAMMGVNreVRydXN0IENhcmdv
+IElzc3VpbmcgQ0EwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDQUWie
+HmUEQD0Mw14d4NBY4w4whN6YDgnvD0KynQ8rD4NBXAO9g4hLPucKYpiWDeLi+RUW
+qv7SgPOLsJeq+AIsW5+Wm6wZpljPRi0J6illyno7vNYEe+h0FlwOPuBpulcUC98R
+xQgidGOC1mCf8WsaqM+DyLiAdc1G1miZKQkeuxNl1G1ZUEqBq7BgQk21Uq1vNqbe
+CNbzTko8HIhrRDbJrr4nW69E5YzES8P3z2PblaxFJBqZqXK3av2hJ97kEszBLBre
+yX/cDgNZh4lyuul+gDOCx9XNQiPBqUTxwjcV6MGuuVmdOzaD2gRHegmpa/KJxIer
+32buDlvMHVXzOZSpcJeUkZilS77K0GwTJRmB8QNdQk6XDqUUB4DsrVB5OPL/+qNI
+w5JLSJFcbkDdFPIx4CPZvqN6Zw4LYSsnof0Mf1bHExQwq/zcBNBH25F2yeWic7rF
+JbRh9MXQfjUbU4U9Fc3aRJBMzKbqV7bbDoMc/J6zQesiiLshoqx6J0Y1YMvaig9J
+DfNuGumE5w8vjMJ3hf4vqjxrdvcOoQEwKTEvrMnKuqMyCOcKby4o6AN290vDPmIE
+rxey4gzPQk9s7aRvBbke+uWchwGKu/DFO5PXEK+tXtShI7OB3wLu4cs31q0b3bJP
+I7DNa6F2VSMhCeyFnaup0LplBX47/n0nP72zLwIDAQABo2MwYTAPBgNVHRMBAf8E
+BTADAQH/MB8GA1UdIwQYMBaAFGxUBJgMZHDHkgBrKdJol+9xUlk0MB0GA1UdDgQW
+BBRsVASYDGRwx5IAaynSaJfvcVJZNDAOBgNVHQ8BAf8EBAMCAYYwDQYJKoZIhvcN
+AQELBQADggIBAFAo2t5wvyukTtGWYOgbwnPLRJ5elvB7sgWBUf1HUXLksHy7PxTn
+U3Sy6UBJAgp/W/v1T810Oo3SPLskBEyE1XNM3ldbIT7SbSQG0ipSSv4QrBbDwcoG
+89VfzLoY1Lg5+64oD1uG87ZkJDvAVrG4dRnJcKCZkLFv3cy8sg0QpWZgEF/kXvhB
+cITjgjDcdMCApMlsNq/bjRBAaPsSab0ZxVqWhewITbVpErttRdSKY0VI5Ce9Mili
+UIGxthivaRz1rWblKgB+aXyJqQQEv6kfY6e4NGrRH8Iec4o3HPvXFdjPHtGPUe58
+W8HuYPw0ecbucAw0iczNz8Vg5EisfjkurKkdXVeLhoLPmPIX/2ZEn9M+HmBVLI0y
+JFMdVhzXXM1bgdSUtofod9Rp1GP8pU0D7sOZCL0ZY6BI5LSwgnqZHef5V8uvjSP9
+3ZNMeE278K2GYhYWsaEW9wmZHrKtI22cV5fkXp6JYeheJKKkZhoRnDq/F0EkGYwT
+LhCAPC823cFBI9dodr7fuiW3xUDcT5mQSnIMXNBwV95EhNAi3PYPde60m+RN7Mij
+u2okj0n0iBEuHv6qaWl5NynK5wDUyoTdND79ZMomdpKNbkv2tl7sQao4ieStlQFF
+H+Z6HKqAdBnpOUFEBeDQLgO7WGROduFh3u3xYmXTEZyChFWv/7HtcPtM
+-----END CERTIFICATE-----
+tracker-001.pem: good
+	This Update: May  4 00:16:48 2026 GMT
