@@ -9,10 +9,10 @@ services:
     networks:
       - ejbca-net
     environment:
-      MYSQL_ROOT_PASSWORD: ejbca_root_pw
-      MYSQL_DATABASE: ejbca
-      MYSQL_USER: ejbca
-      MYSQL_PASSWORD: ejbca_db_pw
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_pw}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-ejbca}
+      MYSQL_USER:  ${MYSQL_USER:-ejbca}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-ejbca_db_pw}
     volumes:
       - ejbca-exam-db-data:/var/lib/mysql
     restart: unless-stopped
