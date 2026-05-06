@@ -70,7 +70,7 @@ SkyTrust, une alliance aérienne internationale, lance un service de suivi cargo
 
 ---
 
-### Phase 4 : Audit et conformité [Si réalisée]
+### Phase 4 : Audit et conformité 
 **Objectifs** : Analyser les logs d'audit, vérifier la conformité réglementaire et documenter les lacunes de sécurité en environnement de lab.
 
 ---
